@@ -82,7 +82,8 @@ app = FastAPI(
 # -------------------------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ai-note-book-rkas.vercel.app/"],
+    allow_origins=["https://ai-note-book-rkas.vercel.app",
+                   "https://ai-note-book-rkas-bimy2lkw6-hafizmuhammadumairs-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
