@@ -1,4 +1,4 @@
-from backend.simple_rag_service import SimpleRAGService
+from simple_rag_service import SimpleRAGService
 
 print("Initializing RAG Service...")
 rag_service = SimpleRAGService()

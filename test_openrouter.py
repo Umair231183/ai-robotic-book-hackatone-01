@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from backend.simple_rag_service import SimpleRAGService
+from simple_rag_service import SimpleRAGService
 
 
 
