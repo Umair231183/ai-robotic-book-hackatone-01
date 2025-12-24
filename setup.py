@@ -1,0 +1,33 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="ai-note-book-backend",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi>=0.104.1",
+        "uvicorn[standard]>=0.24.0",
+        "langchain>=0.2.0",
+        "langchain-openai>=0.1.0",
+        "langchain-qdrant>=0.1.0",
+        "langchain-cohere>=0.3.0",
+        "langchain-google-genai>=1.0.0",
+        "openai>=1.10.0",
+        "openrouter>=0.1.0",
+        "qdrant-client>=1.7.0",
+        "psycopg2-binary>=2.9.0",
+        "asyncpg>=0.29.0",
+        "pydantic>=2.5.0",
+        "pydantic-settings>=2.0.0",
+        "python-dotenv>=1.0.0",
+        "numpy>=1.21.0",
+        "cohere>=5.0.0",
+        "tiktoken>=0.5.0",
+        "requests>=2.31.0",
+    ],
+    author="Your Name",
+    author_email="your.email@example.com",
+    description="AI Note Book Backend with OpenRouter Integration",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+)

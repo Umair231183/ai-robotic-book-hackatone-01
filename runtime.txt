@@ -1,0 +1,4 @@
+runtime: python3
+python_version: "3.11"
+
+# Dependencies will be installed from requirements.txt
