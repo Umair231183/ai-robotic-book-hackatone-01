@@ -24,7 +24,7 @@ async def lifespan(app: FastAPI):
     try:
         # Import services here (NOT at module level)
         from src.services.db_service import NeonDBService
-        from backend.simple_rag_service import SimpleRAGService
+        from simple_rag_service import SimpleRAGService
 
         # ----------------------
         # Database initialization
